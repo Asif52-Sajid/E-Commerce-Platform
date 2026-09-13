@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="basketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+    <linearGradient id="trail1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="trail2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="trail3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Speed Motion Trails -->
+  <path d="M140 220H200" stroke="url(#trail1)" stroke-width="12" stroke-linecap="round" />
+  <path d="M160 270H220" stroke="url(#trail2)" stroke-width="12" stroke-linecap="round" />
+  <path d="M180 320H240" stroke="url(#trail3)" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Shopping Cart Body / Basket -->
+  <path d="M235 190H405L375 300H270L235 190Z" fill="url(#basketGrad)" />
+
+  <!-- Inner Motion Stripes on Basket -->
+  <path d="M285 235H375" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+  <path d="M270 275H355" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Cart Chassis / Handle Frame (Dark Teal/Green) -->
+  <path d="M180 180H210C215 180 220 184 222 190L265 315H395" fill="none" stroke="#064e3b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Wheels -->
+  <g transform="translate(0, 5)">
+    <circle cx="280" cy="355" r="22" fill="#10b981" />
+    <circle cx="280" cy="355" r="9" fill="#ffffff" />
+
+    <circle cx="365" cy="355" r="22" fill="#06b6d4" />
+    <circle cx="365" cy="355" r="9" fill="#ffffff" />
+  </g>
+</svg>
